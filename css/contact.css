@@ -1,0 +1,60 @@
+.hero-btn{
+    color: inherit;
+    border: 2px solid black;
+}
+.form-control {
+  
+ margin: 10px 10px;
+ color: black;
+}
+.form-control {
+ padding: 10px;
+ width: 50vw;
+ border: 1px solid rgb(0, 0, 0);
+ border-radius: 5px;
+ font-size: 16px;
+}
+
+.contact{
+ display: flex;
+ align-items: center ;
+ justify-content: space-evenly;
+ padding-bottom: 20px;
+ gap: 2vw;
+}
+.map-container{
+  
+position: relative;
+width: 30vw;
+padding-bottom: 100.25%; /* 16:9 Aspect Ratio */
+height: 50vh;
+overflow: hidden;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.map-container iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+border: 0;
+}
+
+
+@media (max-width: 768px) {
+.contact{
+    display: grid;
+}
+.map-container{
+  
+ 
+  width: 55vw;
+  padding-bottom: 100.25%; /* 16:9 Aspect Ratio */
+  height: 50vh;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+}

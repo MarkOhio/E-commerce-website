@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DeMark SHOP</title>
+  <link rel="stylesheet" href="css/style3.css">
+</head>
+<style>
+  </style>
+<body>
+  <!-- topbar start-->
+  <div class="topbar">
+
+    <div class="top-links">
+      <div class="top-atag">
+          <a class="tal" href="#">About</a>
+          <a class="tal" href="contact.html">Contact</a>
+          <a class="tal" href="#">Help</a>
+          <a class="tal" href="#">FAQs</a>
+      </div>
+  </div>
+
+<!-- theme toggle btn start -->
+  <div class="theme-toggle-container" id="themeToggle">
+    <div class="slider-icon" id="sliderIcon">&#9789;</div> <!-- Unicode moon -->
+  </div>
+<!-- theme toggle btn end -->
+
+
+    <!-- drp dwn start -->
+    <div class="topbar-drpdwn">
+
+      <div class="dropdown">
+        <select name="" id="" onchange="redirectToPage(this.value)">  <!--sign up script -->
+          <option value="signup" selected>Sign Up</option>
+         
+         <option value="login">Sign In</option>
+        </select>
+      </div>
+    
+
+      <div class="dropdown">
+      <select name="" id="">
+        <option value="" selected>NGN</option>
+        <option value="">USD</option>
+        <option value="">GBP</option>
+      </select>
+      </div>
+
+      <div class="dropdown">
+        <select name="" id="">
+          <option value="" selected>EN</option>
+          <option value="">FR</option>
+          <option value="">GBP</option>
+        </select>
+      </div>
+
+
+    </div>
+
+    
+     <!-- drp dwn end -->
+  </div>
+
+  <div class="second-topbar">
+      <div class="logo">
+        <h1 id="log1">DeMark</h1><h1 id="log2">SHOP</h1>
+      </div>
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+    <input type="text" id="search-input" class="search-input" placeholder="Search...">
+    <ul id="search-results" class="search-results"></ul>
+    </div>
+    <!-- Results will be displayed here -->
+    <div class="serve" id="search-container">
+<!-- Search Bar end -->
+
+      <div class="num">
+        <p>Customer Service</p>
+        <p>+234 707 751 7272</p>
+      </div>
+    </div>
+  </div>
+  <!-- topbar end-->
+
+
+
+
+  <!-- navbbar start -->
+  <header class="header" id="navbar">
+    <div class="mobileHeader">
+      <div class="logo" id="phlogo">
+        <h1 id="log1">DeMark</h1><h1 id="log2">SHOP</h1>
+      </div>
+      <button onClick = {openMenu()} class="hamburger">  <img src="pic/ham.png" alt="" width="30px" height="30px"></button>
+     
+    </div>
+    <div class="">
+      <select name="Categories" id="cate-btn" >
+        <option value="" selected>Categories</option>
+        <option value="">Electronics</option>
+        <option value="">Fashion</option>
+        <option value="">home</option>
+        <option value="">Beauty</option>
+        <option value="">Sports</option>
+        <option value="">Art</option>
+        <option value="">Books</option>
+        <option value="">Health</option>
+      </select>
+    </div>
+
+    <nav class="menu">
+      <ul class="list">
+       
+        <li class="listItem"><a href="index.html" id="lia">home</a></li>
+       
+        <li><a href="shop.html" id="lia">Shop</a></li>
+        <li><a href="#" id="lia">Pages</a></li>
+        <li><a href="checkout.html" id="lia">Cart</a></li>
+        <div class="top-links" id="phtop-links">
+          <div class="top-atag">
+              <a class="tal" id="lia" href="#">About</a>
+              <a class="tal" id="lia" href="contact.html">Contact</a>
+              <a class="tal" id="lia" href="#">Help</a>
+              <a class="tal" id="lia" href="#">FAQs</a>
+          </div>
+      </div>
+      </ul>
+    </nav>
+  </header>
+<!-- NAVBAR SECTION end-->
+
+
+ <!-- bact to top button -->
+ <button onclick="topFunction()" id="bttBtn" title="Go to top">top</button>
+ <!-- bact to top button end -->
+
+<!-- HERO SECTION -->
+<div class="hero">
+  <div class="imgd1">
+    <img src="pic/hero.gif" alt="" class="img1">
+    <div class="overlay"></div>
+    <div class="imgtxt">
+      <h1>Men Fashion</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, quidem dignissimos adipisci placeat expedita reprehenderit </p>
+      <a href=""><button class="hero-btn">Shop Now</button></a>
+    </div>
+    
+  </div>
+
+  <div class="left">
+    <div class="imgd2">
+      <img src="pic/offer-1.jpg" alt="" class="img2">
+      <div class="overlay"></div>
+      <div class="imgtxt">
+        <h2>Save 20%</h2>
+        <h1>Special Offer</h1>
+        <a href=""><button class="hero-btn">Shop Now</button></a>
+      </div>
+    </div>
+
+  <div class="imgd3">
+    <img src="pic/offer-2.jpg" alt="" class="img3">
+    <div class="overlay"></div>
+    <div class="imgtxt">
+      <h2>Save 20%</h2>
+      <h1>Special Offer</h1>
+      <a href=""><button class="hero-btn">Shop Now</button></a>
+    </div>
+  </div>
+  </div>
+  
+</div>
+
+<!-- HERO SECTION END -->
+
+<!-- brag section start -->
+<div class="brag-sect">
+  <div class="brg">
+    <p>Quality Product</p>
+  </div>
+
+  <div class="brg">
+    <p>Free Shipping</p>
+  </div>
+
+  <div class="brg">
+    <p>14-Day Return</p>
+  </div>
+
+  <div class="brg">
+    <p>24/7 Support</p>
+  </div>
+</div>
+<!-- brag section start -->
+
+
+<!-- Categories section start-->
+<h1>Categories</h1><hr>
+<div class="categories">
+
+  <div class="cate">
+    <img src="pic/product-5 drone.jpg" alt="" id="cate-img">
+    <div id="cate-txt">
+      <h2>Electronics</h2>
+      <p>100 products</p>
+    </div>
+  </div>
+
+  <div class="cate">
+    <img src="pic/cat-1 woman shirt.jpg" alt="" id="cate-img">
+    <div id="cate-txt">
+      <h2>Fashion</h2>
+      <p>100 products</p>
+    </div>
+  </div>
+
+  <div class="cate">
+    <img src="pic/product-3 lamp.jpg" alt="" id="cate-img">
+    <div id="cate-txt">
+      <h2>Home</h2>
+      <p>100 products</p>
+    </div>
+  </div>
+
+  <div class="cate">
+    <img src="pic/product-8 cream.jpg" alt="" id="cate-img">
+    <div id="cate-txt">
+      <h2>Beauty</h2>
+      <p>100 products</p>
+    </div>
+  </div>
+
+  <div class="cate">
+    <img src="pic/cat-3 shoes.jpg" alt="" id="cate-img">
+    <div id="cate-txt">
+      <h2>Sports</h2>
+      <p>100 products</p>
+    </div>
+  </div>
+
+  <div class="cate">
+    <img src="pic/cat-2 camera.jpg" alt="" id="cate-img">
+    <div id="cate-txt">
+      <h2>Art</h2>
+      <p>100 products</p>
+    </div>
+  </div>
+
+  <div class="cate">
+    <img src="pic/product-2 shirt.jpg" alt="" id="cate-img">
+    <div id="cate-txt">
+      <h2>Books</h2>
+      <p>100 products</p>
+    </div>
+  </div>
+
+  <div class="cate">
+    <img src="pic/cat-1 woman shirt.jpg" alt=""id="cate-img">
+    <div id="cate-txt">
+      <h2>Health</h2>
+      <p>100 products</p>  
+    </div>
+  </div> 
+
+
+</div>
+<!-- Categories section end-->
+
+
+<br>
+
+
+
+
+<!-- product section start -->
+<h1>Featured Products</h1> <hr>
+
+  <div class="product-grid">
+    <!-- Product blocks -->
+    <!-- Product 1 -->
+    <div class="product" data-id="1" id="topp">
+      <div class="color-options">
+        <div class="green" onclick="changeColor(event, 1, 'green')"></div>
+        <div class="blue" onclick="changeColor(event, 1, 'blue')"></div>
+        <div class="red" onclick="changeColor(event, 1, 'red')"></div>
+        <div class="yellow" onclick="changeColor(event, 1, 'yellow')"></div>
+      </div>
+      <img data-src="pic/product-2 shirt.jpg" src="" alt="Product 1" loading="lazy" id="product-img-1">
+      <h3>Product Name 1</h3>
+      <p>₦29.99</p>
+      <button class="buy">Buy Now</button>
+      <button class="cart">Add to Cart</button>
+    </div>
+
+    <!-- Products 2 to 8 -->
+    <!-- Repeat with respective data-id and product names -->
+    <!-- Only changing image and text -->
+    <!-- For simplicity, the names and prices are unique per product -->
+    <!-- Product 2 -->
+    <div class="product" data-id="2">
+      <div class="color-options">
+        <div class="green" onclick="changeColor(event, 2, 'green')"></div>
+        <div class="blue" onclick="changeColor(event, 2, 'blue')"></div>
+        <div class="red" onclick="changeColor(event, 2, 'red')"></div>
+        <div class="yellow" onclick="changeColor(event, 2, 'yellow')"></div>
+      </div>
+      <img data-src="pic/product-3 lamp.jpg" src="" alt="Product 2" loading="lazy" id="product-img-2">
+      <h3>Product Name 2</h3>
+      <p>₦34.99</p>
+      <button class="buy">Buy Now</button>
+      <button class="cart">Add to Cart</button>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product" data-id="3">
+      <div class="color-options">
+        <div class="green" onclick="changeColor(event, 3, 'green')"></div>
+        <div class="blue" onclick="changeColor(event, 3, 'blue')"></div>
+        <div class="red" onclick="changeColor(event, 3, 'red')"></div>
+        <div class="yellow" onclick="changeColor(event, 3, 'yellow')"></div>
+      </div>
+      <img data-src="pic/product-4 sneakers.jpg" src="" alt="Product 3" loading="lazy" id="product-img-3">
+      <h3>Product Name 3</h3>
+      <p>₦24.99</p>
+      <button class="buy">Buy Now</button>
+      <button class="cart">Add to Cart</button>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product" data-id="4">
+      <div class="color-options">
+        <div class="green" onclick="changeColor(event, 4, 'green')"></div>
+        <div class="blue" onclick="changeColor(event, 4, 'blue')"></div>
+        <div class="red" onclick="changeColor(event, 4, 'red')"></div>
+        <div class="yellow" onclick="changeColor(event, 4, 'yellow')"></div>
+      </div>
+      <img data-src="pic/product-5 drone.jpg" src="" alt="Product 4" loading="lazy" id="product-img-4">
+      <h3>Product Name 4</h3>
+      <p>₦39.99</p>
+      <button class="buy">Buy Now</button>
+      <button class="cart">Add to Cart</button>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="product" data-id="5">
+      <div class="color-options">
+        <div class="green" onclick="changeColor(event, 5, 'green')"></div>
+        <div class="blue" onclick="changeColor(event, 5, 'blue')"></div>
+        <div class="red" onclick="changeColor(event, 5, 'red')"></div>
+        <div class="yellow" onclick="changeColor(event, 5, 'yellow')"></div>
+      </div>
+      <img data-src="pic/product-9 chair.jpg" src="" alt="Product 5" loading="lazy" id="product-img-5">
+      <h3>Product Name 5</h3>
+      <p>₦19.99</p>
+      <button class="buy">Buy Now</button>
+      <button class="cart">Add to Cart</button>
+    </div>
+
+    <!-- Product 6 -->
+    <div class="product" data-id="6">
+      <div class="color-options">
+        <div class="green" onclick="changeColor(event, 6, 'green')"></div>
+        <div class="blue" onclick="changeColor(event, 6, 'blue')"></div>
+        <div class="red" onclick="changeColor(event, 6, 'red')"></div>
+        <div class="yellow" onclick="changeColor(event, 6, 'yellow')"></div>
+      </div>
+      <img data-src="pic/product-7.jpg" src="" alt="Product 6" loading="lazy" id="product-img-6">
+      <h3>Product Name 6</h3>
+      <p>₦49.99</p>
+      <button class="buy">Buy Now</button>
+      <button class="cart">Add to Cart</button>
+    </div>
+
+    <!-- Product 7 -->
+    <div class="product" data-id="7">
+      <div class="color-options">
+        <div class="green" onclick="changeColor(event, 7, 'green')"></div>
+        <div class="blue" onclick="changeColor(event, 7, 'blue')"></div>
+        <div class="red" onclick="changeColor(event, 7, 'red')"></div>
+        <div class="yellow" onclick="changeColor(event, 7, 'yellow')"></div>
+      </div>
+      <img data-src="pic/product-6 watch.jpg" src="" alt="Product 7" loading="lazy" id="product-img-7">
+      <h3>Product Name 7</h3>
+      <p>₦27.99</p>
+      <button class="buy">Buy Now</button>
+      <button class="cart">Add to Cart</button>
+    </div>
+
+    <!-- Product 8 -->
+    <div class="product" data-id="8">
+      <div class="color-options">
+        <div class="green" onclick="changeColor(event, 8, 'green')"></div>
+        <div class="blue" onclick="changeColor(event, 8, 'blue')"></div>
+        <div class="red" onclick="changeColor(event, 8, 'red')"></div>
+        <div class="yellow" onclick="changeColor(event, 8, 'yellow')"></div>
+      </div>
+      <img data-src="pic/product-1 camera.jpg" src="" alt="Product 8" loading="lazy" id="product-img-8">
+      <h3>Product Name 8</h3>
+      <p>₦31.99</p>
+      <button class="buy">Buy Now</button>
+      <button class="cart">Add to Cart</button>
+    </div>
+  </div>
+
+
+<!-- product section end -->
+
+
+
+
+
+<br>
+<br>
+
+
+
+
+
+
+<div class="ads">
+  <div class="aimgd2">
+    <img src="pic/PS2.jpg" alt="" class="aimg2">
+    <div class="overlay"></div>
+    <div class="imgtxt">
+      <h3>Save 20%</h3>
+      <h2>Special Offer</h2>
+      <a href=""><button class="hero-btn">Shop Now</button></a>
+    </div>
+  </div>
+
+<div class="aimgd3">
+  <img src="pic/PS3.jpeg" alt="" class="aimg3">
+  <div class="overlay"></div>
+  <div class="imgtxt">
+    <h3>Save 20%</h3>
+    <h2>Special Offer</h2>
+    <a href=""><button class="hero-btn">Shop Now</button></a>
+  </div>
+</div>
+</div>
+
+
+
+<br><br>
+
+
+<!-- recent product section start -->
+<h1>Featured Products</h1> <hr>
+<div class="product-grid">
+  <!-- Product blocks -->
+  <!-- Product 1 -->
+  <div class="product" data-id="1">
+     
+    <img data-src="pic/product-2 shirt.jpg" src="" alt="Product 1" loading="lazy" id="product-img-1">
+    <h3>Product Name 1</h3>
+    <p>₦29.99</p>
+    <button class="buy">Buy Now</button>
+    <button class="cart">Add to Cart</button>
+  </div>
+
+
+  <!-- Product 2 -->
+  <div class="product" data-id="2">
+    
+    <img data-src="pic/product-1 camera.jpg" src="" alt="Product 2" loading="lazy" id="product-img-2">
+    <h3>Product Name 2</h3>
+    <p>₦34.99</p>
+    <button class="buy">Buy Now</button>
+    <button class="cart">Add to Cart</button>
+  </div>
+
+  <!-- Product 3 -->
+  <div class="product" data-id="3">
+    
+    <img data-src="pic/product-7.jpg" src="" alt="Product 3" loading="lazy" id="product-img-3">
+    <h3>Product Name 3</h3>
+    <p>₦24.99</p>
+    <button class="buy">Buy Now</button>
+    <button class="cart">Add to Cart</button>
+  </div>
+
+  <!-- Product 4 -->
+  <div class="product" data-id="4">
+     
+    <img data-src="pic/product-9 chair.jpg" src="" alt="Product 4" loading="lazy" id="product-img-4">
+    <h3>Product Name 4</h3>
+    <p>₦39.99</p>
+    <button class="buy">Buy Now</button>
+    <button class="cart">Add to Cart</button>
+  </div>
+
+  <!-- Product 5 -->
+  <div class="product" data-id="5">
+    
+    <img data-src="pic/product-7.jpg" src="" alt="Product 5" loading="lazy" id="product-img-5">
+    <h3>Product Name 5</h3>
+    <p>₦19.99</p>
+    <button class="buy">Buy Now</button>
+    <button class="cart">Add to Cart</button>
+  </div>
+
+   <!-- Product  -->
+  <div class="product" data-id="5">
+    
+    <img data-src="pic/product-4 sneakers.jpg" alt="Product 5" loading="lazy" id="product-img-5">
+    <h3>Product Name 5</h3>
+    <p>₦19.99</p>
+    <button class="buy">Buy Now</button>
+    <button class="cart">Add to Cart</button>
+  </div>
+
+</div>
+
+
+<!-- recent product section end -->
+
+
+
+<!-- footer start -->
+<footer>
+  <div class="foot">
+    
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.842610228059!2d8.878359714182678!3d9.89652769293364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x105370f8fdbf8cd9%3A0x845de32cb2419280!2sJos%2C%20Nigeria!5e0!3m2!1sen!2sng!4v1610736208991!5m2!1sen!2sng"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe> 
+    
+    </div>
+  
+
+    <br>
+    <div class="qLinks">
+      <h2> Quick LInks</h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Our Shop</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </div>
+
+    <div class="acctLinks">
+      <h2> My Account</h2>
+      <ul>
+        <li><a href="checkout.html"> Shopping Cart</a></li>
+        <li><a href="payout.html">Checkout</a> </li>
+        
+      </ul>
+    </div>
+
+    <div class="follow">
+      <h2>follow us</h2>
+      <div class="foll">
+        <div class="foll-icn"><a href=""> <i class="fa fa-instagram"></i> </a></div>
+        <div class="foll-icn"><a href=""><i class="fa fa-twitter"></i></a></div>
+        <div class="foll-icn"><a href=""><i class="fa fa-facebook"></i></i> </a></div>
+        <div class="foll-icn"><a href=""></a>🅶</div>
+      </div>
+      <p  >Located at Jos, Plateau State Nigeria <br>info@example.com <br>+012 345 67890</p>
+
+    </div>
+
+    <div class="subscribe">
+      <p>Newsletter</p>
+      <input placeholder="Your e-mail" class="subscribe-input" name="email" type="email">
+      <br>
+      <div class="submit-btn">SUBMIT</div>
+    </div>
+
+  </div>
+</footer>
+<!-- footer end -->
+
+<hr>
+<div class="rights">
+  <div class="rights-txt"> All Rights Reserved. Designed by <b>MARK OHIO</b> </div>
+  <div class="rights-img">
+    <img src="pic/payments.png" alt="">
+  </div>
+</div>
+
+</body>
+<script src="java/nav_bar.js"></script>
+<script src="java/top.js"></script>
+<script src="java/signup.js"></script>
+
+<script src="java/search.js"></script>
+<script src="hero_slide.js"></script>
+<!-- <script>
+  const colorOptions = document.querySelectorAll('.color-option');
+
+colorOptions.forEach(option => {
+  option.addEventListener('click', () => {
+    const color = option.getAttribute('data-color');
+    const productImage = option.parentNode.parentNode.querySelector('img');
+    productImage.src = `${color}-shirt.jpg`;
+  });
+});
+</script> -->
+
+
+<script src="java/theme.js"></script>
+<script src="java/product.js"></script>
+</html>

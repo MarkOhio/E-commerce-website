@@ -1,0 +1,125 @@
+
+    .prdct{
+        display: flex;
+    }
+    .prdct-description{
+        margin: 5vh;
+        background-color: white;
+        padding: 20px;
+        
+    }
+    .prdct-description h1{ padding: 0;}
+    #rewnum{
+        font-size: 10px;
+    }
+    .radio-div{
+        display: flex;
+    }
+    form{
+        display: flex;
+    }
+    .prdct-img{
+        margin: 5vh;
+        width: 50vw;
+    }
+    .prdct-img img{
+        width: 100%;
+        height: auto;
+    }
+    #describe-txt, .radio-div, .prdct-num, .quantity-control{
+        padding: 10px 0;
+    }
+    .prdct-num{
+        display: flex;
+    }
+    .radio{
+        padding:0 10px;
+    }
+    .cart{
+        margin-left: 10px;
+        padding: 10px;
+        cursor: pointer;
+        color: #e6b400;
+        border: 2px solid #e6b400;
+    }
+
+    .quantity-control {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-input {
+  width: 30px;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+}
+
+.minus-btn, .plus-btn {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  background-color: #e6b400;
+  cursor: pointer;
+}
+
+.minus-btn:hover, .plus-btn:hover {
+  background-color: #e6b4009f;
+}
+
+
+   
+    
+    /* Style the tab */
+    .tab {
+        margin: 10px;
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #ffffff;
+    }
+    
+    /* Style the buttons inside the tab */
+    .tab button {
+        background-color: #ffffff;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 17px;
+    }
+    
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+        background-color: #ddd;
+    }
+    
+    /* Create an active/current tablink class */
+    .tab button.active {
+        background-color: #ccc;
+    }
+    
+    /* Style the tab content */
+    .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .theme-dark {
+        color: black;
+      }
+    @media (max-width: 768px) {
+
+        .prdct{
+            display: grid;
+        }
+        .prdct-img img{
+            width: 95vh;
+            height: auto;
+        }
+    }

@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Details</title>
+  <link rel="stylesheet" href="css/style3.css">
+  <link rel="stylesheet" href="css/details.css">
+</head>
+<style>
+  </style>
+<body>
+   <!-- topbar start-->
+   <div class="topbar">
+
+    <div class="top-links">
+      <div class="top-atag">
+          <a class="tal" href="#">About</a>
+          <a class="tal" href="contact.html">Contact</a>
+          <a class="tal" href="#">Help</a>
+          <a class="tal" href="#">FAQs</a>
+      </div>
+  </div>
+
+<!-- theme toggle btn start -->
+  <div class="theme-toggle-container" id="themeToggle">
+    <div class="slider-icon" id="sliderIcon">&#9789;</div> <!-- Unicode moon -->
+  </div>
+<!-- theme toggle btn end -->
+
+
+    <!-- drp dwn start -->
+    <div class="topbar-drpdwn">
+
+      <div class="dropdown">
+        <select name="" id="" onchange="redirectToPage(this.value)">  <!--sign up script -->
+          <option value="signup" selected>Sign Up</option>
+         
+         <option value="login">Sign In</option>
+        </select>
+      </div>
+    
+
+      <div class="dropdown">
+      <select name="" id="">
+        <option value="" selected>NGN</option>
+        <option value="">USD</option>
+        <option value="">GBP</option>
+      </select>
+      </div>
+
+      <div class="dropdown">
+        <select name="" id="">
+          <option value="" selected>EN</option>
+          <option value="">FR</option>
+          <option value="">GBP</option>
+        </select>
+      </div>
+
+
+    </div>
+
+    
+     <!-- drp dwn end -->
+  </div>
+
+  <div class="second-topbar">
+      <div class="logo">
+        <h1 id="log1">DeMark</h1><h1 id="log2">SHOP</h1>
+      </div>
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+    <input type="text" id="search-input" class="search-input" placeholder="Search...">
+    <ul id="search-results" class="search-results"></ul>
+    </div>
+    <!-- Results will be displayed here -->
+    <div class="serve" id="search-container">
+<!-- Search Bar end -->
+
+      <div class="num">
+        <p>Customer Service</p>
+        <p>+234 707 751 7272</p>
+      </div>
+    </div>
+  </div>
+  <!-- topbar end-->
+
+
+
+
+  <!-- navbbar start -->
+  <header class="header" id="navbar">
+    <div class="mobileHeader">
+      <div class="logo" id="phlogo">
+        <h1 id="log1">DeMark</h1><h1 id="log2">SHOP</h1>
+      </div>
+      <button onClick = {openMenu()} class="hamburger">  <img src="pic/ham.png" alt="" width="30px" height="30px"></button>
+     
+    </div>
+    <div class="">
+      <select name="Categories" id="cate-btn" >
+        <option value="" selected>Categories</option>
+        <option value="">Electronics</option>
+        <option value="">Fashion</option>
+        <option value="">home</option>
+        <option value="">Beauty</option>
+        <option value="">Sports</option>
+        <option value="">Art</option>
+        <option value="">Books</option>
+        <option value="">Health</option>
+      </select>
+    </div>
+
+    <nav class="menu">
+      <ul class="list">
+       
+        <li class="listItem"><a href="index.html" id="lia">home</a></li>
+       
+        <li><a href="shop.html" id="lia">Shop</a></li>
+        <li><a href="#" id="lia">Pages</a></li>
+        <li><a href="checkout.html" id="lia">Cart</a></li>
+        <div class="top-links" id="phtop-links">
+          <div class="top-atag">
+              <a class="tal" id="lia" href="#">About</a>
+              <a class="tal" id="lia" href="contact.html">Contact</a>
+              <a class="tal" id="lia" href="#">Help</a>
+              <a class="tal" id="lia" href="#">FAQs</a>
+          </div>
+      </div>
+      </ul>
+    </nav>
+  </header>
+<!-- NAVBAR SECTION end-->
+
+
+ <!-- bact to top button -->
+ <button onclick="topFunction()" id="bttBtn" title="Go to top">top</button>
+ <!-- bact to top button end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <div class="prdct">
+     <div class="prdct-img">
+         <img src="pic/describe.gif" alt="">
+     </div>
+     <div class="prdct-description">
+         <h1>Product Name Goes Here</h1>
+         <p id="rewnum">(99 Reviews)</p>
+         <h1>₦150.00</h1>
+         <p id="describe-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia rem qui animi nulla soluta aliquam odit vitae maiores aut quod ullam odio, nostrum ducimus repudiandae est ea facere nesciunt inventore!</p>
+
+         <div class="radio-div">
+            <strong class="rad-head">Sizes:</strong>
+            <form>
+                <div class="radio">
+                    <input type="radio" class="rad-input" id="size-1" name="size">
+                    <label class="rad-label" for="size-1">XS</label>
+                </div>
+
+                <div class="radio">
+                    <input type="radio" class="rad-input" id="size-1" name="size">
+                    <label class="rad-label" for="size-1">XS</label>
+                </div>
+
+                <div class="radio">
+                    <input type="radio" class="rad-input" id="size-1" name="size">
+                    <label class="rad-label" for="size-1">XS</label>
+                </div>
+
+                <div class="radio">
+                    <input type="radio" class="rad-input" id="size-1" name="size">
+                    <label class="rad-label" for="size-1">XS</label>
+                </div>
+
+                <div class="radio">
+                    <input type="radio" class="rad-input" id="size-1" name="size">
+                    <label class="rad-label" for="size-1">XS</label>
+                </div>
+            </form>
+         </div>
+
+         <div class="radio-div">
+            <strong class="rad-head">Colors:</strong>
+            <form>
+                <div class="radio">
+                    <input type="radio" class="rad-input" id="size-1" name="size">
+                    <label class="rad-label" for="size-1">Green</label>
+                </div>
+
+                <div class="radio">
+                    <input type="radio" class="rad-input" id="size-1" name="size">
+                    <label class="rad-label" for="size-1">Blue</label>
+                </div>
+
+                <div class="radio">
+                    <input type="radio" class="rad-input" id="size-1" name="size">
+                    <label class="rad-label" for="size-1">Red</label>
+                </div>
+
+                <div class="radio">
+                    <input type="radio" class="rad-input" id="size-1" name="size">
+                    <label class="rad-label" for="size-1">Yellow</label>
+                </div>
+
+               
+            </form>
+         </div>
+        <div class="prdct-num">
+            <div class="quantity-control">
+                <button class="minus-btn">-</button>
+                <input type="text" class="quantity-input" value="1" readonly>
+                <button class="plus-btn">+</button>
+              </div>
+              <button id="add-to-cart-btn" class="cart">Add to Cart</button>
+        </div>
+     </div>
+ </div>
+
+ <div class="description-tabs">
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'London')">Description</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">Information</button>
+        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Reviews (0)</button>
+      </div>
+      
+      <div id="London" class="tabcontent">
+        <h3>Product Description</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto ea quos pariatur sint, beatae dignissimos iste laboriosam mollitia est, nobis, possimus nostrum accusantium. Fugiat obcaecati libero sequi numquam mollitia rem.</p>
+      </div>
+      
+      <div id="Paris" class="tabcontent">
+        <h3>Product Information</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga doloremque placeat tempore iusto adipisci delectus aspernatur voluptatem maiores similique reiciendis mollitia sed et facilis beatae quam, magni iste deleniti quisquam?</p> 
+      </div>
+      
+      <div id="Tokyo" class="tabcontent">
+        <h3>Product Reviews (0)</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta magnam perferendis placeat quasi? Quis magnam dignissimos sunt veniam, praesentium facere, quod quia repellendus dolorem debitis ipsam officiis quisquam voluptas. Possimus?</p>
+      </div>
+ </div>
+
+<br><br><br>
+
+
+<!-- footer start -->
+<footer>
+  <div class="foot">
+    
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.842610228059!2d8.878359714182678!3d9.89652769293364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x105370f8fdbf8cd9%3A0x845de32cb2419280!2sJos%2C%20Nigeria!5e0!3m2!1sen!2sng!4v1610736208991!5m2!1sen!2sng"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe> 
+    
+    </div>
+  
+
+    <br>
+    <div class="qLinks">
+      <h2> Quick LInks</h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Our Shop</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </div>
+
+    <div class="acctLinks">
+      <h2> My Account</h2>
+      <ul>
+        <li><a href="checkout.html"> Shopping Cart</a></li>
+        <li><a href="payout.html">Checkout</a> </li>
+        
+      </ul>
+    </div>
+
+    <div class="follow">
+      <h2>follow us</h2>
+      <div class="foll">
+        <div class="foll-icn"><a href=""> <i class="fa fa-instagram"></i> </a></div>
+        <div class="foll-icn"><a href=""><i class="fa fa-twitter"></i></a></div>
+        <div class="foll-icn"><a href=""><i class="fa fa-facebook"></i></i> </a></div>
+        <div class="foll-icn"><a href=""></a>🅶</div>
+      </div>
+      <p  >Located at Jos, Plateau State Nigeria <br>info@example.com <br>+012 345 67890</p>
+
+    </div>
+
+    <div class="subscribe">
+      <p>Newsletter</p>
+      <input placeholder="Your e-mail" class="subscribe-input" name="email" type="email">
+      <br>
+      <div class="submit-btn">SUBMIT</div>
+    </div>
+
+  </div>
+</footer>
+<!-- footer end -->
+
+<hr>
+<div class="rights">
+  <div class="rights-txt"> All Rights Reserved. Designed by <b>MARK OHIO</b> </div>
+  <div class="rights-img">
+    <img src="pic/payments.png" alt="">
+  </div>
+</div>
+
+
+
+
+</body>
+<script src="java/nav_bar.js"></script>
+<script src="java/top.js"></script>
+<script src="java/signup.js"></script>
+
+<script src="java/search.js"></script>
+<script src="hero_slide.js"></script>
+<!-- <script>
+  const colorOptions = document.querySelectorAll('.color-option');
+
+colorOptions.forEach(option => {
+  option.addEventListener('click', () => {
+    const color = option.getAttribute('data-color');
+    const productImage = option.parentNode.parentNode.querySelector('img');
+    productImage.src = `${color}-shirt.jpg`;
+  });
+});
+</script> -->
+
+
+<script src="java/theme.js"></script>
+<script src="java/product.js"></script>
+
+
+<!-- tabs script -->
+<script>
+    function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+    </script>
+
+    <!-- add to cart btn -->
+    <script>
+        const addToCartBtn = document.getElementById('add-to-cart-btn');
+
+addToCartBtn.addEventListener('click', () => {
+  if ('Notification' in window) {
+    Notification.requestPermission(permission => {
+      if (permission === 'granted') {
+        new Notification('Item added to cart!');
+      }
+    });
+  } else {
+    alert('Item added to cart!');
+  }
+});
+    </script>
+
+    <!-- product numbers -->
+<script>
+    const minusBtn = document.querySelector('.minus-btn');
+const plusBtn = document.querySelector('.plus-btn');
+const quantityInput = document.querySelector('.quantity-input');
+
+let quantity = 1;
+
+minusBtn.addEventListener('click', () => {
+  quantity--;
+  quantityInput.value = quantity;
+});
+
+plusBtn.addEventListener('click', () => {
+  quantity++;
+  quantityInput.value = quantity;
+});
+</script>
+</html>
