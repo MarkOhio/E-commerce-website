@@ -119,7 +119,7 @@
             display: grid;
         }
         .prdct-img img{
-            width: 95vh;
+            width: 80vw;
             height: auto;
         }
     }
